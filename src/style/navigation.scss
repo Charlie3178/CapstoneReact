@@ -1,0 +1,23 @@
+.nav-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100vw;
+  //   justify-content: space-between;
+
+  .left-side {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.5em;
+  }
+
+  .nav-link-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px;
+  }
+
+  .right-side {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
