@@ -1,5 +1,5 @@
 import React from "react";
-import CharacterContainer from "./character-container";
+// import CharacterContainer from "./character-container";
 
 export default function () {
   return (

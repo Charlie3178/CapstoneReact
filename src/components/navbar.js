@@ -1,5 +1,6 @@
 import React from "react";
 
+import LogoImg from "../../static/assets/imgz/DnDCharacterSheetLogo.jpg";
 import { withRouter } from "react-router";
 import { NavLink } from "react-router-dom";
 
@@ -25,7 +26,7 @@ const NavigationComponent = (props) => {
 
         <div className="nav-link-wrapper">
           <NavLink to="/view" activeclassname="nav-link-active">
-            View ALL Character Sheets
+            View All Character Sheets
           </NavLink>
         </div>
 
@@ -45,7 +46,9 @@ const NavigationComponent = (props) => {
         </div>
       </div>
 
-      <div className="right-side">CHARLIE LOVEJOY</div>
+      <div className="right-side">
+        <img src={LogoImg} />
+      </div>
     </div>
   );
 };
