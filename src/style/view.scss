@@ -1,0 +1,34 @@
+.ViewCharacters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 100px;
+  padding-top: 50px;
+  width: 70%;
+  font-weight: 700;
+
+  .list-data {
+    display: flex;
+    border: 1px solid black;
+    padding: 55px;
+  }
+
+  img {
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    opacity: 55%;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 115%;
+    text-align: center;
+    // padding-left: 100px;
+    // padding-right: 100px;
+  }
+}

@@ -5,16 +5,6 @@ import { withRouter } from "react-router";
 import { NavLink } from "react-router-dom";
 
 const NavigationComponent = (props) => {
-  const dynamicLink = (route, linkText) => {
-    return (
-      <div className="nav-link-wrapper">
-        <NavLink to={route} activeclassname="nav-link-active">
-          {linkText}
-        </NavLink>
-      </div>
-    );
-  };
-
   return (
     <div className="nav-wrapper">
       <div className="left-side">
@@ -45,7 +35,7 @@ const NavigationComponent = (props) => {
           </a>
         </div>
       </div>
-
+      <div></div>
       <div className="right-side">
         <img src={LogoImg} />
       </div>

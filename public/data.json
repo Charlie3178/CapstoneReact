@@ -1,0 +1,20 @@
+{
+  "id": 1,
+  "name": "Valland",
+  "race": "Halfdragon",
+  "age": 175,
+  "gender": "Male",
+  "description": "71\" tall male with long silver hair, blue eyes, and weighing 240lbs",
+  "biography": "Orphaned at age 2, raised by druids and has now become a well respected member of the druid community",
+  "alignment": "NG",
+  "level": 10,
+  "wealth": 10000,
+  "strength": 15,
+  "dexterity": 15,
+  "constitution": 15,
+  "intelligence": 15,
+  "wisdom": 15,
+  "charisma": 15,
+  "hp": 100,
+  "mp": 30
+}

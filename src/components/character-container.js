@@ -1,16 +1,20 @@
 import React, { Component } from "react";
+import CharacterItem from "./character-item";
 
 export default class CharacterContainer extends Component {
   constructor(props) {
-    super();
+    super(props);
 
-    // this.state = {};
+    this.state = {
+      character: {},
+      characterData: [],
+    };
   }
 
   render() {
     return (
-      <div className="characterSheet">
-        <h1>Sample Character</h1>
+      <div className="character-data">
+        <CharacterItem />
       </div>
     );
   }
