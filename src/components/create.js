@@ -62,7 +62,9 @@ export default class CharacterForm extends Component {
     this.setState({
       name: "",
       age: 0,
+      race: "",
       gender: "",
+      pclass: "",
       alignment: "",
       description: "",
       biography: "",
@@ -120,7 +122,7 @@ export default class CharacterForm extends Component {
             type="text"
             name="class"
             placeholder="Class"
-            value={this.state.class}
+            value={this.state.pclass}
             onChange={this.handleChange}
           />
           <label>Alignment: </label>

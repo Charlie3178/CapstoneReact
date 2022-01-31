@@ -21,7 +21,7 @@ function CharacterItem() {
         <br />
         Gender: {characterData.gender}
         <br />
-        Class: {characterData.class}
+        Class: {characterData.pclass}
         <br />
         Description: {characterData.description}
         <br />

@@ -26,7 +26,7 @@ export default function () {
           <br />
           Gender: {character.gender}
           <br />
-          Class: {character.class}
+          Class: {character.pclass}
           <br />
           Alignment: {character.alignment}
           <br />
