@@ -4,7 +4,7 @@ function CharacterItem() {
   const [characterData, setCharacterData] = useState([]);
 
   useEffect(() => {
-    fetch("https://cel-my-capstone-api.herokuapp.com/character/get/3")
+    fetch("https://cel-my-capstone-api.herokuapp.com/character/get/1")
       .then((response) => response.json())
       .then((data) => setCharacterData(data))
       .catch((error) => console.log("Error getting characters", error));
