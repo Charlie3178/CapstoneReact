@@ -16,7 +16,7 @@ const NavigationComponent = (props) => {
 
         <div className="nav-link-wrapper">
           <NavLink to="/view" activeclassname="nav-link-active">
-            View All Character Sheets
+            View All
           </NavLink>
         </div>
 
