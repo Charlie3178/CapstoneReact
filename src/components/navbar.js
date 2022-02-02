@@ -29,6 +29,7 @@ const NavigationComponent = (props) => {
         <div className="nav-link-wrapper">
           <a
             href="http://web.mit.edu/dvp/Public/butters-lululu.pdf"
+            target="_blank"
             activeclassname="nav-link-active"
           >
             PHB 3.5e

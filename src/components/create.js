@@ -7,7 +7,9 @@ export default class CharacterForm extends Component {
     this.state = {
       name: "",
       age: 0,
+      race: "",
       gender: "",
+      pclass: "",
       alignment: "",
       description: "",
       biography: "",
@@ -39,7 +41,9 @@ export default class CharacterForm extends Component {
       body: JSON.stringify({
         name: this.state.name,
         age: this.state.age,
+        race: this.state.race,
         gender: this.state.gender,
+        pclass: this.state.pclass,
         alignment: this.state.alignment,
         description: this.state.description,
         biography: this.state.biography,
@@ -120,7 +124,7 @@ export default class CharacterForm extends Component {
           <label>Class: </label>
           <input
             type="text"
-            name="class"
+            name="pclass"
             placeholder="Class"
             value={this.state.pclass}
             onChange={this.handleChange}

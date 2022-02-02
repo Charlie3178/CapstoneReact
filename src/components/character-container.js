@@ -13,7 +13,7 @@ export default class CharacterContainer extends Component {
 
   render() {
     return (
-      <div className="character-data">
+      <div>
         <CharacterItem />
       </div>
     );

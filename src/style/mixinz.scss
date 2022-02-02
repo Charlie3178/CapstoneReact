@@ -1,0 +1,10 @@
+@mixin character-data-mixin {
+  font-family: "Calligraffitti", cursive;
+  font-size: 2em;
+}
+
+@mixin container-mixin {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
+  background-color: tan;
+}

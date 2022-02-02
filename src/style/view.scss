@@ -1,34 +1,7 @@
-.ViewCharacters {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 100px;
-  padding-top: 50px;
-  width: 70%;
-  font-weight: 700;
+.view {
+  font-size: 2em;
+}
 
-  .list-data {
-    display: flex;
-    padding: 55px;
-    font-weight: 700;
-  }
-
-  img {
-    background-attachment: fixed;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: absolute;
-    opacity: 55%;
-    top: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 115%;
-    width: 115%;
-    text-align: center;
-    // padding-left: 100px;
-    // padding-right: 100px;
-  }
+.SampleData {
+  font-size: 1em;
 }

@@ -11,42 +11,63 @@ function CharacterItem() {
   }, []);
 
   return (
-    <div className="character-data">
-      <ol>
-        Name: {characterData.name}
-        <br />
-        Age: {characterData.age}
-        <br />
-        Race: {characterData.race}
-        <br />
-        Gender: {characterData.gender}
-        <br />
-        Class: {characterData.pclass}
-        <br />
-        Description: {characterData.description}
-        <br />
-        Biography: {characterData.biography}
-        <br />
-        Level: {characterData.level}
-        <br />
-        Wealth: {characterData.wealth}
-        <br />
-        Strength: {characterData.strength}
-        <br />
-        Dexterity: {characterData.dextertiy}
-        <br />
-        Constitution: {characterData.constitution}
-        <br />
-        Intelligence: {characterData.intelligence}
-        <br />
-        Wisdom: {characterData.wisdom}
-        <br />
-        Charisma: {characterData.charisma}
-        <br />
-        HP: {characterData.hp}
-        <br />
-        Movement: {characterData.mp}
-      </ol>
+    <div key={characterData.id} className="list-container">
+      <div className="character-data-wrapper" key={characterData.id}>
+        <div className="character-data" key={characterData.id}>
+          Name: {characterData.name}
+        </div>
+        <div className="character-data" key={characterData.id}>
+          Age: {characterData.age}
+        </div>
+        <div className="character-data" key={characterData.id}>
+          Race: {characterData.race}
+        </div>
+        <div className="character-data" key={characterData.id}>
+          Gender: {characterData.gender}
+        </div>
+        <div className="character-data" key={characterData.id}>
+          Class: {characterData.pclass}
+        </div>
+        <div className="character-data" key={characterData.id}>
+          Alignment: {characterData.alignment}
+        </div>
+        <div className="character-data" key={characterData.id}>
+          Description: {characterData.description}
+        </div>
+        <div className="character-data" key={characterData.id}>
+          Biography: {characterData.biography}
+        </div>
+        <div className="character-data" key={characterData.id}>
+          Level: {characterData.level}
+        </div>
+        <div className="character-data" key={characterData.id}>
+          Wealth: {characterData.wealth}
+        </div>
+        <div className="character-data" key={characterData.id}>
+          Strength: {characterData.strength}
+        </div>
+        <div className="character-data" key={characterData.id}>
+          Dexterity: {characterData.dextertiy}
+        </div>
+        <div className="character-data" key={characterData.id}>
+          Constitution: {characterData.constitution}
+        </div>
+        <div className="character-data" key={characterData.id}>
+          Intelligence: {characterData.intelligence}
+        </div>
+        <div className="character-data" key={characterData.id}>
+          Wisdom: {characterData.wisdom}
+        </div>
+        <div className="character-data" key={characterData.id}>
+          Charisma: {characterData.charisma}
+        </div>
+        <div className="character-data" key={characterData.id}>
+          HP: {characterData.hp}
+        </div>
+        <div className="character-data" key={characterData.id}>
+          Movement: {characterData.mp}
+        </div>
+      </div>
     </div>
   );
 }

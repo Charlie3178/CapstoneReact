@@ -1,5 +1,5 @@
 html {
-  font-size: 100%; // 1rem is 10px
+  font-size: 65%;
   margin: 0;
 }
 
@@ -8,12 +8,11 @@ html {
 *::before {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
   font-family: "montserrat";
 }
 
 body {
-  overflow-x: hidden;
+  overflow-x: auto;
   font-weight: normal;
 
   -webkit-font-smoothing: antialiased;

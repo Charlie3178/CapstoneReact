@@ -1,8 +1,26 @@
-.characterSheet {
-  display: flex;
+@import "./mixinz.scss";
+
+html {
+  background-color: tan;
 }
 
 .character-data {
-  padding-left: 10px;
-  font-size: 1.5rem;
+  @include character-data-mixin;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-content: center;
+  @include container-mixin;
+  height: 100%;
+  width: 100vw;
+}
+
+.container {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 2px solid rgb(189, 126, 43);
+  width: 98.5vw;
 }
